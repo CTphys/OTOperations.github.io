@@ -3626,10 +3626,10 @@ input, select, textarea {
 		-webkit-justify-content: center;
 		-ms-justify-content: center;
 		justify-content: center;
-		background-image: url("images/overlay.png"), url("images/OTOPS.png");
-		background-position: top left, center center;
-		background-attachment: fixed, fixed;
-		background-size: auto, cover;
+		background-image: url("images/OTOPS.png");
+		background-position: center center;
+		background-attachment: fixed;
+		background-size: cover;
 		height: 100vh;
 		min-height: 35em;
 	}
