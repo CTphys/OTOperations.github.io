@@ -3609,9 +3609,7 @@ input, select, textarea {
 	}
 
 /* Header */
-/* Header */
 #header {
-  background-color: #4696e5;
   color: #d1e5f9;
   padding: 4.5em 0 2.5em 0;
   display: flex;
@@ -3622,7 +3620,9 @@ input, select, textarea {
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 35em;
-  height: auto; /* changed from 100vh */
+  height: auto;
+  /* Make sure this rule has সর্বোচ্চ গুরুত্ব */
+  background-color: transparent !important;
 }
 
 #header input[type="submit"],
