@@ -3622,7 +3622,7 @@ input, select, textarea {
   min-height: 35em;
   height: auto;
   /* Make sure this rule has সর্বোচ্চ গুরুত্ব */
-  background-color: transparent !important;
+  background-color: transparent;
 }
 
 #header input[type="submit"],
